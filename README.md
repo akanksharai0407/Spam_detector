@@ -1,9 +1,11 @@
 # Spam_detector
 
-Project Summary
+Project Summary:
+
 This project is about building a simple spam email detector using the Naive Bayes algorithm. The goal is to figure out whether an email is spam or not, based on the words it contains. The model was trained using a dataset from Kaggle and was implemented in Python. I also used NLTK for some text preprocessing.
 
-Dataset Info
+Dataset Info:
+
 The dataset I used is the Email Spam Classification Dataset from Kaggle. It includes:
 
 Around 5000+ emails
@@ -14,7 +16,8 @@ A final column that marks whether an email is spam (1) or not (0)
 
 Each row is basically an email, represented by how often each word appears.
 
-Model Used
+Model Used:
+
 I used the Multinomial Naive Bayes classifier, which is good for text data. The idea is to look at how often words appear in spam emails vs. normal ones, and then use that to guess whether a new email is spam.
 
 Steps I followed:
@@ -25,7 +28,8 @@ Trained the Naive Bayes model on the training data
 
 Tested it on the test data to see how well it performs
 
-Text Preprocessing (with NLTK)
+Text Preprocessing (with NLTK):
+
 To test the model with new input emails, I used NLTK to:
 
 Tokenize the input (split into words)
@@ -36,7 +40,8 @@ Do stemming (reduce words like “running” to “run”)
 
 This helps clean the input and match it better with the features in the original dataset.
 
-Results & Evaluation
+Results & Evaluation:
+
 I used the following metrics to evaluate the model:
 
 Accuracy: about 95%
