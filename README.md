@@ -36,3 +36,5 @@ Even though this is a pretty basic approach, it works well for detecting spam ba
 
 output
 <img width="601" alt="output" src="https://github.com/user-attachments/assets/366536e2-a082-4739-8c4e-7898f864d8b8" />
+
+![output](https://github.com/user-attachments/assets/6dd8243b-f051-4817-a689-522b802cfc34)
