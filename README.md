@@ -33,3 +33,6 @@ I used the following metrics to evaluate the model:
 
 Conclusion
 Even though this is a pretty basic approach, it works well for detecting spam based on email content. The dataset didn’t include sender domain info, so I focused only on the words used in the emails.
+
+output
+<img width="601" alt="output" src="https://github.com/user-attachments/assets/366536e2-a082-4739-8c4e-7898f864d8b8" />
